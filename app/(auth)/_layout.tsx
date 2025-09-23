@@ -8,13 +8,17 @@ import {
   KeyboardAvoidingView,
   Platform,
   ScrollView,
-  Text,
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import CustomInput from "../compontents/CustomInput";
 import CustomButton from "../compontents/CustomButton";
 
+/**
+ * This is the layout for the auth pages
+ * @returns 
+ * 
+ */
 export default function _layout() {
   return (
     <KeyboardAvoidingView
@@ -37,7 +41,7 @@ export default function _layout() {
             source={images.logo}
             className="self-center size-48 absolute -bottom-16 z-10"
           />
-        </View>
+        </Vie>
         <Slot />
       </ScrollView>
     </KeyboardAvoidingView>
