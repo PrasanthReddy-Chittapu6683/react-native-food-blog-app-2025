@@ -17,7 +17,7 @@ import CustomButton from "../compontents/CustomButton";
 
 export default function _layout() {
   return (
-    <KeyboardAvoidingVi
+    <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : "height"}
     >
       <ScrollView
